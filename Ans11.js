@@ -10,3 +10,11 @@ const result = numbers.reduce((acc, num) => {
 }, { evens: [], odds: [] }); 
 
 console.log(result);
+
+
+
+
+
+
+// Output =>
+// { evens: [ 2, 4 ], odds: [ 1, 3, 5 ] }
