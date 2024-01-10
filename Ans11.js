@@ -4,7 +4,7 @@ const result = numbers.reduce((acc, num) => {
   if (num % 2 === 0) {
     acc.evens.push(num);
   } else {
-    acc.odds.push(num);
+    acc.odds.push(num2);
   }
   return acc;
 }, { evens: [], odds: [] }); 
